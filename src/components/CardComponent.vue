@@ -33,7 +33,9 @@
     .card_album {
         min-height: 100%;
         background-color: $ds-primary;
-        
+        img{
+            aspect-ratio: 1/1;
+        }
         h4 {
             color: $ds-white;
         }

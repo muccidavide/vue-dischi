@@ -9,9 +9,7 @@
         />
       </div>
       <div
-        v-else
-        class="d-flex min-vh-100 align-items-center justify-content-center"
-      >
+        v-else class="d-flex min-vh-100 align-items-center justify-content-center">
         <div class="div">
           <h2>Loading....</h2>
           <h3 v-if="error !== null">{{ error }}</h3>
