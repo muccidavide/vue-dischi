@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="container pt-3">
-      <div class="row row-cols-5 align-items-center" v-if="!loading">
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5  align-items-center" v-if="!loading">
         <CardComponent
           :album="album"
           v-for="(album, index) in albums"

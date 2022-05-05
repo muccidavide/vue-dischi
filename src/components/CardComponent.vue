@@ -28,8 +28,8 @@
 
 <style lang="scss" scoped>
 .col{
-        height: 28rem;
 
+    height: 28rem;
     .card_album {
         min-height: 100%;
         background-color: $ds-primary;
