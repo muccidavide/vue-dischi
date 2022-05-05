@@ -1,11 +1,11 @@
 <template>
     <div class="col text-center p-4">
-    <div class="album p-3">
+    <div class="card_album p-3">
         <div class="img_album">
         <img :src="album.poster" :alt="album.title" />
         </div>
-        <h3 class="py-3">{{ album.title }}</h3>
-        <div class="info">
+        <h4 class="py-3">{{ album.title }}</h4>
+        <div class="info_album">
         <div class="author">
             {{ album.author }}
         </div>
@@ -28,19 +28,20 @@
 
 <style lang="scss" scoped>
 .col{
-        height: 27rem;
-        margin: 1rem 0;
+        height: 28rem;
 
-    .album {
+    .card_album {
         min-height: 100%;
         background-color: $ds-primary;
         
-        h3 {
+        h4 {
             color: $ds-white;
         }
-        .info {
+        .info_album {
             color: $ds-light-dark;
         }
     }
 }
+
+
 </style>
