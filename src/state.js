@@ -1,7 +1,8 @@
 import Vue from 'vue';
 
 const scope = Vue.observable({
-    selectedGenre: ""
+    selectedGenre: "",
+    selectedArtist: "",
 })
 
 export default scope 
