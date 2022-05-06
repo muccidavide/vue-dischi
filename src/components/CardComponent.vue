@@ -18,8 +18,15 @@
 </template>
 
 <script>
+
+
 export default {
   name: "CardComponent",
+  data(){
+    return{
+          selectedGenre: ""
+    }
+  },
   props: {
     album: Object,
   },
