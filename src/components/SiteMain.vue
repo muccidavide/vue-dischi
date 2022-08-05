@@ -77,16 +77,9 @@ export default {
           .toLowerCase()
           .includes(state.selectedArtist.toLowerCase());
         }
-
-        
         if (filteredAlbum && filteredArtist) {
           return album;
         }
-
-        /*         if (true  ) {   
-        } else{
-           return this.albums
-        } */
       });
     },
   },

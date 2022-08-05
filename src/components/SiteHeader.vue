@@ -1,5 +1,6 @@
 <template>
-  <header class="">
+
+  <header>
     <div class="container-fluid">
       <div class="row justify-content-between align-items-center">
         <div class="logo col">
@@ -74,11 +75,9 @@ export default {
   methods: {
     selectGenre() {
       state.selectedGenre = this.selectedGenre;
-      console.log(state.selectedGenre);
     },
     selectArtist() {
       state.selectedArtist = this.selectedArtist;
-      console.log(state.selectedArtist);
     },
   },
 };
@@ -100,3 +99,5 @@ header {
   }
 }
 </style>
+
+
